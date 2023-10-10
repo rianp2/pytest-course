@@ -17,7 +17,7 @@ def test_accumulator_add_three(accum):
 
 
 
-def test_accumulator_add_twice3(accum):
+def test_accumulator_add_twice23(accum):
     accum.add()
     accum.add()
     assert accum.count == 2

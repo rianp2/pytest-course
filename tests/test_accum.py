@@ -5,7 +5,7 @@ def test_accumulator_init(accum):
     assert accum.count == 0
 
 
-def test_accumulator_add_one(accum):
+def test_accumulator_add_one(1accum):
     """Check init count state"""
     accum.add()
     assert accum.count == 1
